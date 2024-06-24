@@ -76,9 +76,20 @@ body{
 
 .quote{
     background-color: #e5e7eb;
-    padding: 200px;
+    padding: 100px 0px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.quote-author{
+    width: 900px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 
 .quote-text{
@@ -87,6 +98,29 @@ body{
     color: #1f2937;
     width: 900px;
     
+}
+
+.signup{    
+    padding: 100px;
+}
+
+.signup-box{
+    background-color: #3882f6;
+    display: flex;
+    gap: 100px;
+    padding: 50px 80px;
+}
+
+.signup-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+    color: white;
+}
+
+.signup-header{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 button{
@@ -99,8 +133,14 @@ button{
 .first-button{
     background-color: #3882f6;
     color: white;
+}
 
-    
+.second-button{
+    background-color: #3882f6;
+    border: 1px;
+    color: white;
+    border-style: solid;
+    border-color: white;
 }
 
 img{
